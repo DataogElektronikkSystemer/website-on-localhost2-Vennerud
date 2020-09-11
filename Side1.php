@@ -16,7 +16,7 @@
           </nav>
 
       <div class="side">
-  test test    
+   
 
 
 
