@@ -13,14 +13,49 @@
           </nav>
 
       <div class="side">
-          <p>Norsk</p>  
+          <p>Norsk</p>
           <br>
-         
+
+
+
+          <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="side2.php">Infrastrutur</a>
+  <a href="side3.php">Norsk</a>
+  <a href="side4.php">Eengelsk</a>
+  <a href="#">Samfunnsfag</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ fagmeny</button>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 
 
 
 
           </div>
-                     
+
+    </body>
+   </html>
+
+
+
+
+
+          </div>
+
     </body>
    </html>
